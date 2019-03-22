@@ -1,8 +1,6 @@
 #Essa é uma calculadora simples de dois números
-#Primeira operação funciona, as próximas ficam estranhas
 num = []
 while True:
-    #
     print('\nEscolha uma das opções abaixo.')
     print('Escreva \'som\' para somar dois números. ')
     print('Escreva \'sub\' para subtrair dois números. ')

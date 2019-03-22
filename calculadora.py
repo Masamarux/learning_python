@@ -1,4 +1,5 @@
 #Essa é uma calculadora simples de dois números
+#Primeira operação funciona, as próximas ficam estranhas
 num = []
 valorf = 0
 while True:

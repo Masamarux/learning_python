@@ -1,7 +1,6 @@
 #Essa é uma calculadora simples de dois números
 #Primeira operação funciona, as próximas ficam estranhas
 num = []
-valorf = 0
 while True:
     #
     print('\nEscolha uma das opções abaixo.')
@@ -12,6 +11,7 @@ while True:
     print('Escreva \'fim\' para finalizar a aplicação. \n')
     opc = str(input('Sua escolha:'))
     num.clear()
+    valorf = 0
     if opc == 'som':
         print('\nInforme os dois números a seguir: ')
         for i in range(2):
@@ -22,7 +22,7 @@ while True:
         print('\nInforme os dois números a seguir: ')
         for i in range(2):
             num.append(float(input('Número ' + str(i+1) + ': ')))
-            valorf -= num[i]
+        valorf = num[0] - num[1]
         print(num[0], ' - ', num[1], ' = ', valorf,)
     elif opc == 'mul':
         print('\nInforme os dois números a seguir: ')
